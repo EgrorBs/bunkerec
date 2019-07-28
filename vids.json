@@ -1,6 +1,6 @@
 {
 	"vids": [
-		{"streamer": "Zakviel", "date": "29.06.2019", "name": "Капитан Марвел", 													"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/14Lzi8txF9gvF_Praka9VG-IeY4oDwkbc/preview", "desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "29.06.2019", "name": "Капитан Марвел", 													"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/14Lzi8txF9gvF_Praka9VG-IeY4oDwkbc/preview", "desc": "chat", "iframe": true }, {"service": "MyFiles", "href": "//my-files.ru/mur0gq", "desc": "chat, только загрузка", "iframe": false }]},
 		{"streamer": "Zakviel", "date": "03.07.2019", "name": "Назад в будущее 2",  											"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1XFlw3ItEVfF5dWXYqF7VXJFNpm8er7gv/preview", "desc": "chat", "iframe": true } ]},
 		{"streamer": "Zakviel", "date": "04.07.2019", "name": "Назад в будущее 3", 												"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1Z3YydTJ_7StRkxLZtfOVDy_0Me-aaL4Z/preview", "desc": "chat", "iframe": true } ]},
 		{"streamer": "Zakviel", "date": "05.07.2019", "name": "Анабель: Зарождение зла",									"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1YhRibIJ1ur_XvYKZG_x7KX7yMGAroxjh/preview", "desc": "chat", "iframe": true } ]},
