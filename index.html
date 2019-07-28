@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EgrorBs homehost site</title>
+		<meta charset="UTF-8">
+		<style>
+			html {
+				width: 100%;
+				text-align: center;
+				color: #fff;
+			}
+			.bg {
+				position: fixed;
+				top: 0;
+				left: 0;
+				background-image: url(./bg.jpg);
+				background-size: 105% 105%;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 100%;
+				z-index: -10;
+			}
+			table {
+				max-width: 100%;
+				min-width: 20%;
+				margin: auto;
+
+				background: #4498;
+				padding: 5px;
+				border-radius: 10px;
+
+				box-shadow: 0 0 10px 10px #4497;
+			}
+			iframe {
+				width: 1280px;
+				height: 720px;
+				margin: auto;
+			}
+			iframe[src] {
+				background: #333;
+				box-shadow: 0 0 10px 10px #3337;
+			}
+			#wrap {
+				width: 80%;
+				height: 80%;
+				max-width: 1280px;
+				max-height: 720px;
+				margin: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bg"></div>
+		<table>
+			<thead>
+				<tr><td>№</td> <td>Дата</td> <td>Стример</td> <td>Название</td> <td>Ссылка(и)</td> </tr>
+			</thead>
+			<tbody id="list">
+			</tbody>
+		</table>
+		<br/>
+		<div class="wrap">
+			<iframe id="frame" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+
+		<script type="text/javascript">
+			document.location.hash = '';
+			window.onhashchange = (e) => {
+				if (e.newURL.split('#')[1] == '')
+					return;
+				document.getElementById('frame').src = e.newURL.split('#')[1];
+				document.location.hash = '';
+				console.log('New iframe URL: ', e.newURL.split('#')[1]);
+			}
+
+			function parseJson(json) {
+				console.log(json);
+				var vids = json['vids'];
+				var linksStr;
+				for (var idx in vids) {
+					linksStr = '';
+					for (var link of vids[idx].links) {
+							desc = '';
+							if (link.desc) {
+								desc = ` (${link.desc})`;
+							}
+							var target = 'blank';
+							if (link.iframe) {
+								link.href = '#' + link.href;
+								target = '';
+							}
+							linksStr += `<td>[<a target="${target}" href="${link.href}">${link.service}${desc}</a>]</td>`;
+					}
+					//var text = `<span> ${parseInt(idx) + 1} - ${vids[idx].streamer} - "${vids[idx].name}": ${linksStr} </span>`;
+					var text = `<tr> <td>${parseInt(idx) + 1}</td> <td>${vids[idx].date}</td> <td>${vids[idx].streamer}</td> <td>"${vids[idx].name}"</td> ${linksStr} </tr>`;
+					console.log(text);
+					document.getElementById('list').innerHTML += text;
+				}
+			}
+			fetch('./vids.json')
+				.then((data) => data.json())
+				.then(parseJson);
+			document.location.hash = '';
+		</script>
+	</body>
+</html>
