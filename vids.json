@@ -1,11 +1,11 @@
 {
 	"vids": [
-		{"streamer": "Zakviel", "date": "29.06.2019", "name": "Капитан Марвел", 																"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/14Lzi8txF9gvF_Praka9VG-IeY4oDwkbc/preview", "desc": "chat", "iframe": true } ]},
-		{"streamer": "Zakviel", "date": "03.07.2019", "name": "Назад в будущее 2",  														"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1XFlw3ItEVfF5dWXYqF7VXJFNpm8er7gv/preview", "desc": "chat", "iframe": true } ]},
-		{"streamer": "Zakviel", "date": "04.07.2019", "name": "Назад в будущее 3", 															"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1Z3YydTJ_7StRkxLZtfOVDy_0Me-aaL4Z/preview", "desc": "chat", "iframe": true } ]},
-		{"streamer": "Zakviel", "date": "05.07.2019", "name": "Анабель: Зарождение зла",												"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1YhRibIJ1ur_XvYKZG_x7KX7yMGAroxjh/preview", "desc": "chat", "iframe": true } ]},
-		{"streamer": "Zakviel", "date": "19.07.2019", "name": "Мальчишник 2: Из Вегаса в Бангкок",							"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1u_tTx7I_PpdySpXj_Zqv154CIZPvWoe8/preview", "desc": "chat", "iframe": true } ]},
-		{"streamer": "Zakviel", "date": "22.07.2019", "name": "Аниме-марафон - No Game No Life (обработка...)",	"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1f0_7MomgYsUz2WAmdpDtWv_afc0_dW9n/view",	 	"desc": "chat", "iframe": false} ]},
-		{"streamer": "Zakviel", "date": "27.07.2019", "name": "Мальчишник Часть III",														"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1OfadcSTufYpiigU7zKU1WzrNu7zTKcKw/preview",	"desc": "chat", "iframe": true } ]}
+		{"streamer": "Zakviel", "date": "29.06.2019", "name": "Капитан Марвел", 			"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/14Lzi8txF9gvF_Praka9VG-IeY4oDwkbc/preview", "desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "03.07.2019", "name": "Назад в будущее 2",  			"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1XFlw3ItEVfF5dWXYqF7VXJFNpm8er7gv/preview", "desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "04.07.2019", "name": "Назад в будущее 3", 			"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1Z3YydTJ_7StRkxLZtfOVDy_0Me-aaL4Z/preview", "desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "05.07.2019", "name": "Анабель: Зарождение зла",		"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1YhRibIJ1ur_XvYKZG_x7KX7yMGAroxjh/preview", "desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "19.07.2019", "name": "Мальчишник 2: Из Вегаса в Бангкок",	"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1u_tTx7I_PpdySpXj_Zqv154CIZPvWoe8/preview", "desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "22.07.2019", "name": "Аниме-марафон - No Game No Life",	"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1f0_7MomgYsUz2WAmdpDtWv_afc0_dW9n/preview",	"desc": "chat", "iframe": true } ]},
+		{"streamer": "Zakviel", "date": "27.07.2019", "name": "Мальчишник Часть III",			"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1OfadcSTufYpiigU7zKU1WzrNu7zTKcKw/preview",	"desc": "chat", "iframe": true } ]}
 	]
 }
