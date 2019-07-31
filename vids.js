@@ -33,6 +33,7 @@ function reloadTable() {
         case 3: val = vid.name;			break;
         default: return true;
       }
+      val += '';
       if (!val.match(rule)) {
         console.log(val, '!=', rule);
         return false;
