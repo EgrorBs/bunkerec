@@ -9,6 +9,7 @@
 		{"#": 7 , "streamer": "Zakviel", "date": "27.07.2019", "name": "Мальчишник Часть III",								"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1OfadcSTufYpiigU7zKU1WzrNu7zTKcKw/preview",	"desc": "chat", "iframe": true } ]},
 		{"#": 8 , "streamer": "Zakviel", "date": "28.07.2019", "name": "No Game No Life: Zero",							"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/1dZXEz9ulVOkZ5FBfWcgGi5Ive9VOwzV-/preview",	"desc": "chat", "iframe": true } ]},
 		{"#": 9 , "streamer": "Zakviel", "date": "02.08.2019", "name": "Аниме-марафон - Восхождение героя щита ",							"links": [ {"service": "Twitch", "href": "https://www.twitch.tv/videos/461472638",	"desc": "original", "iframe": false } ]},
-		{"#": 10, "streamer": "Zakviel", "date": "03.08.2019", "name": "Анабель",							"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/15mTDtGgf6b_g3ZiGX1Emmz0H2eiY6qzf/preview",	"desc": "", "iframe": true } ]}
+		{"#": 10, "streamer": "Zakviel", "date": "03.08.2019", "name": "Анабель",							"links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/15mTDtGgf6b_g3ZiGX1Emmz0H2eiY6qzf/preview",	"desc": "", "iframe": true } ]},
+		{"#": 11, "streamer": "Zakviel", "date": "09.08.2019", "name": "Аниме-марафон - Overlord (1 сезон)","links": [ {"service": "GDrive", "href": "//drive.google.com/file/d/14_hxEUqbuORD7N8VDq94tZ9tVeNfQiKM/preview",	"desc": "chat", "iframe": true } ]}
 	]
 }
