@@ -60,11 +60,15 @@ function reloadTable() {
         }
         var target = 'blank';
         var href = link.href;
+        var oSym = '[';
+        var cSym = ']';
         if (link.iframe) {
           href = `javascript:setIframe('${link.href.replace("'", "\\'")}');`;
+          oSym = '<';
+          cSym = '>';
           target = '';
         }
-        linksStr += `<td>[<a target="${target}" href="${href}">${link.service}${desc}</a>]</td>`;
+        linksStr += `<td>${oSym}<a target="${target}" href="${href}">${link.service}${desc}</a>${cSym}</td>`;
     }
     var text = `<tr> <td>${vid['#']}</td> <td>${vid.date}</td> <td>${vid.streamer}</td> <td>"${vid.name}"</td> ${linksStr} </tr>`;
     document.getElementById('list').innerHTML += text;
