@@ -16,11 +16,13 @@
 		]},
 
 		{"#": 4 , "streamer": "Zakviel", "date": "05.07.2019", "name": "Анабель: Зарождение зла",	"links": [
-			{"service": "GDrive", "href": "//drive.google.com/file/d/1YhRibIJ1ur_XvYKZG_x7KX7yMGAroxjh/preview", "desc": "chat", "iframe": true }
+			{"service": "GDrive", "href": "//drive.google.com/file/d/1YhRibIJ1ur_XvYKZG_x7KX7yMGAroxjh/preview", "desc": "chat", "iframe": true },
+			{"service": "MyFiles", "href": "//my-files.ru/2tvt8u", "desc": "chat, только загрузка", "iframe": false }
 		]},
 
 		{"#": 5 , "streamer": "Zakviel", "date": "19.07.2019", "name": "Мальчишник 2: Из Вегаса в Бангкок",	"links": [
-			{"service": "GDrive", "href": "//drive.google.com/file/d/1u_tTx7I_PpdySpXj_Zqv154CIZPvWoe8/preview", "desc": "chat", "iframe": true }
+			{"service": "GDrive", "href": "//drive.google.com/file/d/1u_tTx7I_PpdySpXj_Zqv154CIZPvWoe8/preview", "desc": "chat", "iframe": true },
+			{"service": "MyFiles", "href": "//my-files.ru/rfno85", "desc": "chat, только загрузка", "iframe": false }
 		]},
 
 		{"#": 6 , "streamer": "Zakviel", "date": "22.07.2019", "name": "Аниме-марафон - No Game No Life", "links": [
